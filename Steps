@@ -1,0 +1,4 @@
+$ pyp2spec show-in-file-manager
+$ rpmbuild -ba python-show-in-file-manager.spec
+$ cd rpmbuild/RPMS/noarch
+$ sudo dnf install python-show-in-file-manager-1.1.4.tar.gz
